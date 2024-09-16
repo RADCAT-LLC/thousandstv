@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Logged In</title>
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <meta content="Webflow" name="generator">
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
+  <script type="text/javascript">WebFont.load({  google: {    families: ["Poppins:regular,600"]  }});</script>
+  <link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon">
+  <link href="images/webclip.png" rel="apple-touch-icon">
+</head>
+
+<body class="site-body is-front">
+  <div class="site-body__wrapper">
+    <div class="site-header is-loggedin">
+      <a href="index.html" class="w-inline-block">
+        <div class="site-header__logo"></div>
+      </a>
+      <div class="site-header__account">
+        <div class="site-header__account-image"><img src="images/loggedin-person2x.png" loading="lazy" width="24.5" alt=""></div>
+        <div class="site-header__account-details">
+          <div class="site-header__account-detail">0.732 MATIC</div>
+          <div class="site-header__divider is-account-details"></div>
+          <div class="site-header__account-detail">0xCC...BA5F</div>
+        </div>
+        <a href="index.html" class="site-header__account-button is-logout">Logout</a>
+      </div>
+    </div>
+    <div class="site-front__content">
+      <div class="site-logo">
+        <img src="images/logo.svg" loading="lazy" alt="" class="site-logo__image">
+      </div>
+    </div>
+  </div>
+  <div id="overlay" class="overlay"></div>
+  <div class="embed-webgl w-embed">
+    <canvas class="webgl"></canvas>
+  </div>
+  <script src="js/t.js"></script>
+</body>
+
+</html>
